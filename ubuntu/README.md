@@ -20,10 +20,12 @@ reboot
 
 # 永久挂载硬盘
 
-### 1.创建文件夹：
+### 1.创建文件夹及改权限：
 
 ```
-mkdir path
+cd /
+mkdir data1
+sudo chmod 777 data1
 ```
 
 ### 2.查看已挂载分区：
